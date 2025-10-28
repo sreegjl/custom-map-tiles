@@ -16,7 +16,7 @@
       "type": "background",
       "layout": {"visibility": "visible"},
       "paint": {
-        "background-color": "rgba(213, 181, 139, 1)",
+        "background-color": "rgba(237, 210, 175, 1)",
         "background-opacity": 1
       }
     },
@@ -152,28 +152,10 @@
       "filter": ["all", ["==", "$type", "Polygon"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(73, 113, 119, 1)",
+        "fill-color": "rgba(93, 146, 154, 1)",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1
-      }
-    },
-    {
-      "id": "water_shadow",
-      "type": "fill",
-      "source": "carto",
-      "source-layer": "water",
-      "minzoom": 0,
-      "filter": ["all", ["==", "$type", "Polygon"]],
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(73, 113, 119, 1)",
-        "fill-antialias": true,
-        "fill-translate-anchor": "map",
-        "fill-opacity": 1,
-        "fill-translate": {
-          "stops": [[0, [0, 2]], [6, [0, 1]], [14, [0, 1]], [17, [0, 2]]]
-        }
       }
     },
     {

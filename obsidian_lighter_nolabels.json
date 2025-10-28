@@ -1423,22 +1423,6 @@
       }
     },
     {
-      "id": "boundary_country_outline",
-      "type": "line",
-      "source": "carto",
-      "source-layer": "boundary",
-      "minzoom": 6,
-      "maxzoom": 24,
-      "filter": ["all", ["==", "admin_level", 2], ["==", "maritime", 0]],
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {
-        "line-opacity": 1,
-        "line-offset": 0,
-        "line-width": 3,
-        "line-color": "rgba(208, 189, 162, 1)"
-      }
-    },
-    {
       "id": "boundary_country_inner",
       "type": "line",
       "source": "carto",
@@ -1447,9 +1431,9 @@
       "filter": ["all", ["==", "admin_level", 2], ["==", "maritime", 0]],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "rgba(208, 189, 162, 1)",
+        "line-color": "rgba(195, 184, 171, 1)",
         "line-opacity": 1,
-        "line-width": {"stops": [[3, 1], [6, 1.5]]},
+        "line-width": {"stops": [[3, 1], [6, 1]]},
         "line-offset": 0
       }
     }

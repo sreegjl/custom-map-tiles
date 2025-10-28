@@ -15,10 +15,7 @@
       "id": "background",
       "type": "background",
       "layout": {"visibility": "visible"},
-      "paint": {
-        "background-color": "rgba(242, 240, 229, 1)",
-        "background-opacity": 1
-      }
+      "paint": {"background-opacity": 1, "background-color": "#FFF4E0"}
     },
     {
       "id": "landcover",
@@ -165,7 +162,7 @@
       "filter": ["all", ["==", "$type", "Polygon"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(127, 186, 195, 1)",
+        "fill-color": "rgba(112, 156, 164, 1)",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1
@@ -180,7 +177,7 @@
       "filter": ["all", ["==", "$type", "Polygon"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(127, 186, 195, 1)",
+        "fill-color": "rgba(112, 156, 164, 1)",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1,
@@ -1458,7 +1455,7 @@
       "source": "carto",
       "source-layer": "building",
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(234, 224, 206, 1)", "fill-antialias": true}
+      "paint": {"fill-color": "rgba(226, 213, 190, 1)", "fill-antialias": true}
     },
     {
       "id": "boundary_country_inner",
@@ -1469,7 +1466,7 @@
       "filter": ["all", ["==", "admin_level", 2], ["==", "maritime", 0]],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "rgba(193, 193, 193, 1)",
+        "line-color": "rgba(236, 212, 196, 1)",
         "line-opacity": 1,
         "line-width": {"stops": [[3, 1], [6, 1.5]]},
         "line-offset": 0
@@ -1826,7 +1823,7 @@
         "text-max-width": {"stops": [[2, 6], [3, 6], [4, 9], [5, 12]]}
       },
       "paint": {
-        "text-color": "rgba(113, 113, 113, 1)",
+        "text-color": "rgba(106, 77, 46, 1)",
         "text-halo-color": "rgba(58, 46, 30, 1)",
         "text-halo-width": 0
       }
@@ -2218,7 +2215,7 @@
         "text-justify": "center"
       },
       "paint": {
-        "text-color": "rgba(251, 220, 186, 1)",
+        "text-color": "rgba(129, 103, 75, 1)",
         "text-halo-color": "#fbf8f3",
         "text-halo-width": 0
       }
@@ -2248,7 +2245,7 @@
         "text-justify": "center"
       },
       "paint": {
-        "text-color": "rgba(251, 220, 186, 1)",
+        "text-color": "rgba(117, 92, 65, 1)",
         "text-halo-color": "#fbf8f3"
       }
     },

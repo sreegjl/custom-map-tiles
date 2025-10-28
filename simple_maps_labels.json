@@ -20,14 +20,13 @@
     "openmaptiles:version": "3.x",
     "maputnik:renderer": "mlgljs"
   },
-  "sources": {
-    "openmaptiles": {
-      "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL"
-    }
-  },
-  "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
+"sources": {
+  "openmaptiles": {
+    "type": "vector",
+    "url": "https://basemaps.cartocdn.com/vector/v1/tiles.json"
+  }
+},
+"glyphs": "https://basemaps.cartocdn.com/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",

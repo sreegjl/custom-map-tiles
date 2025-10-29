@@ -16,7 +16,7 @@
       "type": "background",
       "layout": {"visibility": "visible"},
       "paint": {
-        "background-color": "rgba(224, 170, 108, 1)",
+        "background-color": "rgba(220, 179, 127, 1)",
         "background-opacity": 1
       }
     },
@@ -1458,7 +1458,7 @@
       "source": "carto",
       "source-layer": "building",
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(142, 116, 78, 1)", "fill-antialias": true}
+      "paint": {"fill-color": "rgba(199, 159, 118, 1)", "fill-antialias": true}
     },
     {
       "id": "boundary_country_inner",
@@ -1618,9 +1618,8 @@
         "text-line-height": 1.2
       },
       "paint": {
-        "text-color": "#51909c",
+        "text-color": "rgba(123, 183, 195, 1)",
         "text-halo-color": "#e2eef0",
-        "text-halo-width": 1,
         "text-halo-blur": 1
       }
     },
@@ -1693,11 +1692,12 @@
         "text-transform": {"stops": [[8, "none"], [12, "uppercase"]]}
       },
       "paint": {
-        "text-color": "rgba(117, 98, 67, 1)",
+        "text-color": "rgba(74, 57, 31, 1)",
         "icon-color": "#405c78",
         "icon-translate-anchor": "map",
-        "text-halo-color": "rgba(117, 98, 67, 1)",
-        "text-halo-width": 0.3
+        "text-halo-color": "rgba(164, 143, 116, 1)",
+        "text-halo-width": 0.5,
+        "text-halo-blur": 3
       }
     },
     {
@@ -1730,7 +1730,7 @@
         "text-transform": "none"
       },
       "paint": {
-        "text-color": "rgba(255, 244, 227, 1)",
+        "text-color": "rgba(55, 41, 21, 1)",
         "icon-color": "#405c78",
         "icon-translate-anchor": "map",
         "text-halo-color": "rgba(228, 191, 134, 1)",
@@ -1767,11 +1767,11 @@
         "text-transform": "none"
       },
       "paint": {
-        "text-color": "rgba(255, 240, 220, 1)",
+        "text-color": "rgba(89, 64, 48, 1)",
         "icon-color": "#405c78",
         "icon-translate-anchor": "map",
-        "text-halo-color": "rgba(181, 160, 121, 1)",
-        "text-halo-width": 0.7
+        "text-halo-color": "rgba(200, 187, 156, 1)",
+        "text-halo-width": 0.5
       }
     },
     {
@@ -1919,11 +1919,11 @@
         "text-transform": "uppercase"
       },
       "paint": {
-        "text-color": "rgba(255, 240, 220, 1)",
+        "text-color": "rgba(89, 64, 48, 1)",
         "icon-color": "#405c78",
         "icon-translate-anchor": "map",
-        "text-halo-color": "rgba(181, 160, 121, 1)",
-        "text-halo-width": 0.3
+        "text-halo-color": "rgba(200, 187, 156, 1)",
+        "text-halo-width": 0.5
       }
     },
     {
@@ -1948,7 +1948,7 @@
           "HanWangHeiLight Regular",
           "NanumBarunGothic Regular"
         ],
-        "text-size": {"stops": [[8, 14], [10, 16], [13, 19], [14, 22]]},
+        "text-size": {"stops": [[8, 12], [10, 14], [13, 16]]},
         "icon-image": "",
         "icon-offset": [16, 0],
         "text-anchor": "center",
@@ -1959,11 +1959,11 @@
         "text-transform": "uppercase"
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 1)",
+        "text-color": "rgba(89, 64, 48, 1)",
         "icon-color": "#405c78",
         "icon-translate-anchor": "map",
-        "text-halo-color": "#f2f5f8",
-        "text-halo-width": 0
+        "text-halo-color": "rgba(200, 187, 156, 1)",
+        "text-halo-width": 0.5
       }
     },
     {

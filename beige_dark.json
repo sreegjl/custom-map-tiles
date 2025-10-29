@@ -16,7 +16,7 @@
       "type": "background",
       "layout": {"visibility": "visible"},
       "paint": {
-        "background-color": "rgba(161, 134, 95, 1)",
+        "background-color": "rgba(224, 170, 108, 1)",
         "background-opacity": 1
       }
     },
@@ -180,7 +180,7 @@
       "filter": ["all", ["==", "$type", "Polygon"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(54, 98, 103, 1)",
+        "fill-color": "rgba(56, 79, 86, 1)",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1,
